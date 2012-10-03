@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:coreservlets="http://schemas.android.com/apk/res/com.coreservlets.customcomponents"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <view
+            class="com.coreservlets.customcomponents.CustomizableCircleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            coreservlets:text_color="@android:color/holo_blue_dark" />
+        <view
+            class="com.coreservlets.customcomponents.CustomizableCircleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            coreservlets:default_text_size="40"
+            coreservlets:text_color="@android:color/holo_red_dark" 
+            coreservlets:text_message="@string/message_activity_custom_attributes" />
+    </LinearLayout>
+    <view
+        class="com.coreservlets.customcomponents.CustomizableCircleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        coreservlets:text_message="Literal Value"  />
+</LinearLayout>

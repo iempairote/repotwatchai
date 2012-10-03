@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CustomComponents</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_custom_components_launcher">Custom Components Examples</string>
+    <string name="button_label_activity_measurements">MeasurementsActivity (Uses CircleTextView with onMeasure)</string>
+    <string name="title_activity_measurements">Using onMeasure to Specify Custom Component Sizes</string>
+    <string name="button_label_activity_custom_attributes">CustomAttributesActivity (Uses CustomizableCircleTextView with Attributes in the XML Layout File)</string>
+    <string name="title_activity_custom_attributes">Using Custom Attributes in the XML Layout File</string>
+    <string name="message_activity_custom_attributes">strings.xml value</string>
+</resources>
